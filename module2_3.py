@@ -7,9 +7,9 @@ while list_length > 1:
         (list_length) = (list_length -1)
         del(my_list[0])
         number_value = (my_list[0])
-        if number_value == 0:
-            del (my_list[0])
-            number_value = (my_list[0])
+    if number_value == 0:
+        del (my_list[0])
+        number_value = (my_list[0])
     if number_value < -1:
         break
 
